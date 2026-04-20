@@ -88,7 +88,7 @@ export default function Hero() {
 
         {/* Ghost watermark */}
         <p className="absolute right-[-10px] top-1/2 -translate-y-1/2 font-sans font-extrabold text-[22vw] uppercase leading-none tracking-tighter text-white/[0.025] pointer-events-none select-none z-0 whitespace-nowrap">
-          IBRA
+          IN.
         </p>
 
         {/* Terrain glow bottom */}
@@ -201,7 +201,7 @@ export default function Hero() {
                 className="block opacity-0 text-white/[0.13]"
                 style={{ fontSize: "clamp(48px, 7vw, 92px)" }}
             >
-            Ibrahim Nimaga
+            Ibrahim N
           </span>
           </h1>
 

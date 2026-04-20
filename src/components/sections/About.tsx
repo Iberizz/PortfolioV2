@@ -76,7 +76,7 @@ export default function About() {
         {/* Grid bg */}
         <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:60px_60px] pointer-events-none" />
 
-        <div className="relative z-10 w-full px-14 grid grid-cols-2 gap-24 items-center">
+        <div className="relative z-10 w-full px-6 md:px-14 grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start lg:items-center">
           {/* LEFT — Bio */}
           <div>
             <div
@@ -127,7 +127,7 @@ export default function About() {
             {STATS.map(({ value, label }, i) => (
                 <div
                     key={label}
-                    className={`py-10 px-8 border-t border-white/[0.07] last:border-b last:border-white/[0.07] group hover:bg-white/[0.02] transition-colors duration-300 opacity-0`}
+                    className={`py-7 px-4 md:py-10 md:px-8 border-t border-white/[0.07] last:border-b last:border-white/[0.07] group hover:bg-white/[0.02] transition-colors duration-300 opacity-0`}
                 >
                   <div
                       className="font-sans font-extrabold text-white leading-none mb-3 group-hover:text-red-brand transition-colors duration-300"

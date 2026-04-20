@@ -1,6 +1,7 @@
 export type Stat = {
-    value: string;
+    value: number;
     label: string;
+    suffix: string;
 };
 
 export type Badge = {
