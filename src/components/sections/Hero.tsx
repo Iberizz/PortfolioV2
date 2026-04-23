@@ -254,28 +254,6 @@ export default function Hero() {
     </p>
   </div>
 
-  {/* Section bar */}
-  <div className="absolute bottom-0 left-0 right-0 border-t border-white/[0.06] flex z-10">
-    {SECTION_TABS.map(({ num, label, active }) => (
-        <div
-            key={label}
-            className={`flex-1 flex items-center gap-3 px-6 py-[14px] border-r border-white/[0.06] last:border-r-0 cursor-pointer transition-colors duration-200 hover:bg-white/[0.02] ${
-                active
-                    ? "border-t-[1.5px] border-t-red-brand bg-red-brand/[0.03]"
-                    : ""
-            }`}
-        >
-          <span className="font-mono text-[9px] text-red-brand/60">{num}</span>
-          <span
-              className={`font-mono text-[9px] tracking-[0.2em] uppercase ${
-                  active ? "text-white/55" : "text-white/18"
-              }`}
-          >
-              {label}
-            </span>
-        </div>
-    ))}
-  </div>
 </section>
 );
 }
